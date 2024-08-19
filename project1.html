@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant menu</title>
+    <style>
+        div{
+            position: fixed;
+            border: 2px solid;
+            width: 1500px;
+            height: 700px;
+            background-image: url(https://th.bing.com/th/id/R.9a10c13b0d2403581d29156c46ebc08b?rik=Ht02zRyweiFbuQ&riu=http%3a%2f%2fwww.pptgrounds.com%2fwp-content%2fuploads%2f2013%2f08%2fRestaurant-Menu-template-backgrounds.jpg&ehk=6Dpe7%2f5q0rbnX6YNIU7RmQCLnS0IoPil0q9h3P7%2bZPM%3d&risl=&pid=ImgRaw&r=0);
+        }
+       .a{
+        position: relative;
+        font-size: 50px;
+        display: inline;
+        left:500px;
+       }
+       .b{
+         font-size: 25px;
+         font-family:'Times New Roman', Times, serif;
+         color: darkred;
+       }
+       .c{
+        color: darkblue;
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       }
+       .d{
+        position: relative;
+        left:850px;
+        background-color: black;
+        display: inline-block;
+        font-size: 25px;
+        color: darkturquoise;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+       .e{
+        position: relative;
+        left:350px;
+        top:100px;
+       }
+       .e:hover ~ .p{
+            background-color:orangered;
+       }
+    </style>
+</head>
+<body>
+    <div>
+        <p style="color: aqua; background-color: black;" class="a">20% OFFER RESTAURANT & BAR</p><hr>
+    <span  class="b"><marquee direction="right" >20% off on veg items</marquee></span><hr>
+    <span class="c"><marquee direction="up"><center>15% off on non-veg items</center></marquee></span><hr>
+    <span class="d">25% off on Take away</span><hr>
+    
+    <ul class="e">
+        <form action="./project1register.html" method="post"> 
+       <li><label for="username">USERNAME :-</label>
+        <input type="text" id="username" placeholder="username" maxlength="16" minlength="8" pattern="[A-Za-z ]+" title="only alphabets are allowed" required><br></li>
+      <br> <li> <label for="password">PASSWORD :-</label>
+        <input type="password" id="password" placeholder="password" maxlength="16" minlength="8" pattern="[a-zA-Z/d]+" title="all alphabets and numbers ra allowed" required></li>
+     <br><li><label for="mobile">MOBILE NUMBER :-</label>
+        <input type="tel" id="mobile" placeholder="number"  maxlength="10" pattern="[/d]+" title="numbers are allowed" required></li>
+        <br><li><label for="gender">GENDER</label><BR>
+       <label for="male">MALE</label>
+        <input type="radio" id="male" name="gender" required><br>
+          <label for="female">FEMALE</label>
+        <input type="radio" id="female" name="gender" required><br>
+        <label for="other">OTHER</label>
+        <input type="radio" id="other" name="gender" required>
+    </li>
+        <br><input type="submit" value="REGISTER" required>
+
+        </ul>
+    </form>
+
+
+
+    </div>
+</body>
+</html>

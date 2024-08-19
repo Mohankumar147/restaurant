@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 1500px;
+            height: 700px;
+          border: 2px solid;
+        }
+        img{
+            /* position: sticky; */
+            width: 1500px;
+            height: 680px;
+            z-index: 1;
+        }
+        .a{
+            position: relative;
+            bottom: 550px;
+            left:200px;
+            background-color: rgb(224, 104, 168);
+            display: inline-block;
+            font-size:20px;
+            border-radius: 10px;
+        }
+        .c{
+            position: relative;
+            bottom: 400px;
+            left:1150px;
+            background-color: rgb(173, 168, 235);
+            display: inline-block;
+            font-size:20px;
+            border-radius: 10px;
+        }
+        .b{ 
+            position: relative;
+            /* display: inline-block; */
+            bottom: 300px;
+            left:-100px;
+            width: 300px;
+            background-color: rgb(224, 104, 168);
+            display: inline-block;
+            font-size:20px;
+            border-radius: 10px;
+        }
+        .d{
+            position: relative;
+            bottom: 550px;
+            left:750px;
+            background-color: rgb(166, 209, 238);
+            display: inline-block;
+            font-size:20px;
+            border-radius: 10px;
+        }
+        .e{
+            position: relative;
+            bottom: 650px;
+            left:-50px;
+            background-color: rgb(166, 238, 172);
+            display: inline-block;
+            width: 300px;
+            font-size:20px;
+            border-radius: 10px;
+        }
+        .f{
+            position: relative;
+            bottom: 400px;
+            left:-350px;
+            background-color: rgb(166, 238, 172);
+            display: inline-block;
+            font-size:20px;
+            border-radius: 10px;
+        }
+    button{
+        position: relative;
+        bottom: 350px;
+        left:750px;
+        padding: 20px;
+        background-color:blue;
+        color: white;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color:cadetblue;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://media.istockphoto.com/id/956549938/vector/craft-beer-beer-neon-sign-neon-glowing-signboard-banner-design.jpg?s=612x612&w=0&k=20&c=9bcfKOJmu1xzRfwD_Xfd3Rsip0mxPCQZm8sOpd6bEKQ=">
+        <form action="./placed.html" method="post">
+        <ol class="a">
+                <label for="briyani">BIRYANIS</label>
+              <li> <label for="chicken">Chicken Biryani - rs210</label>
+              <input type="checkbox" id="chicken" name="BIRYANIS" required></li>
+              <li><label for="mutton">Mutton Biryani - rs253</label>
+            <input type="checkbox" id="mutton" name="BIRYANIS" required></li>
+            <li><label for="special">Special Chicken Biryani - rs337</label>
+            <input type="checkbox" id="special" name="BIRYANIS" required></li>
+            <li><label for="mohan">Special Mutton Biryani - rs500</label>
+            <input type="checkbox" id="mohan" name="BIRYANIS" required></li>
+        </ol>
+        <ol class="b">
+        <label for="starters">STARTERS</label>
+       <li> <label for="chilli">Chilli Chicken - rs264</label>
+        <input type="checkbox" id="chilli" name="STARTERS" required></li>
+        <li><label for="65">Chicken 65 - rs250</label>
+        <input type="checkbox" id="65" name="STARTERS" required></li>
+        <li><label for="pepper">Pepper Chicken - rs260</label>
+        <input type="checkbox" id="pepper" name="STARTERS" required></li>
+        </ol>
+        </form>
+    </div>
+    <div>
+      <ol class="c">
+        <label for="bar">VODKA</label>
+        <li><lebel for="absolut">Absolut - rs440(60ml)</lebel>
+            <input type="checkbox" id="absolut" name="vodka" required></li>
+            <li><lebel for="Smirnoff">Smirnoff - rs225(60ml)</lebel>
+                <input type="checkbox" id="Smirnoff" name="vodka" required></li>
+                <li><lebel for="White Mischief">White Mischief - rs200(60ml)</lebel>
+                    <input type="checkbox" id="White Mischief" name="vodka" required></li>
+                    <li><lebel for="Magic Moments">Magic Moments - rs190(60ml)</lebel>
+                        <input type="checkbox" id="Magic Moments" name="vodka" required></li>
+      </ol> 
+      <ol class="d">
+        <label for="beer">BEER</label>
+        <li><label for="strong">Budweiser strong - rs390(650ml)</label>
+        <input type="checkbox" id="strong" name="BEER" required></li>
+        <li><label for="Budweiser">Budweiser Light - rs385(650ml)</label>
+            <input type="checkbox" id="Budweiser" name="BEER" required></li>
+            <li><label for="Elephant">Carlsberg Elephant - rs320(650ml)</label>
+                <input type="checkbox" id="Elephant" name="BEER" required></li>
+                <li><label for="Carlsberg"> Carlsberg- rs320(650ml)</label>
+                    <input type="checkbox" id="Carlsberg" name="BEER" required></li>
+                    <li><label for="Tuborg">Tuborg Strong- rs290(650ml)</label>
+                        <input type="checkbox" id="Tuborg" name="BEER" required></li>
+                        <li><label for="Tuborg Light">Tuborg Light - rs285(650ml)</label>
+                            <input type="checkbox" id="Tuborg Light" name="BEER" required></li>
+                            <li><label for="Kingfisher">Kingfisher Strong - rs290(650ml)</label>
+                                <input type="checkbox" id="Kingfisher" name="BEER" required></li>
+                                <li><label for="premimum">Kingfisher Premimum - rs285</label>
+                                <input type="checkbox" id="premimum" name="BEER" required></li>
+      </ol>
+      <ol class="e">
+        <label for="Mocktails">Mocktails</label>
+        <li><label for="blue">Blue Hawaiin - rs160</label>
+        <input type="checkbox" id="blue" name="Mocktails" required></li>
+        <li><label for="mary">Virgin Mary - rs160</label>
+            <input type="checkbox" id="mary" name="Mocktails" required></li>
+            <li><label for="pin">Hawaiian Pinacoloda  - rs160</label>
+                <input type="checkbox" id="pin" name="Mocktails" required></li>
+      </ol>
+      <ol class="f">
+        <label for="juices">Juice & Soft Drinks</label>
+        <li><label for="apple">Apple Juice - rs145</label>
+        <input type="checkbox" id="apple" name="Juice & Soft Drink" required ></li>
+        <li><label for="Cranberry">Cranberry Juice - rs145</label>
+            <input type="checkbox" id="Cranberry" name="Juice & Soft Drink" required ></li>
+            <li><label for="opm">Orange/Pineapple/Mango juices - rs140</label>
+                <input type="checkbox" id="opm" name="Juice & Soft Drink" required ></li>
+                <li><label for="tonic">Tonic Water - rs120</label>
+                    <input type="checkbox" id="tonic" name="Juice & Soft Drink" required ></li>
+      </ol>
+      <form action="./placed.html">
+   <button>Confirm your order</button>
+</form>
+      </div>
+     
+</body>
+</html>
